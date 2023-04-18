@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="regression" >
+
+<parameter name="url" value="https://www.facebook.com"></parameter>
+
+<test name="chrome browser">
+<parameter name="brow" value="chrome"></parameter>
+<groups><run><include name="regression" /></run></groups>
+
+<classes>
+<class name="banking3.testngmarch27.NewTest"></class>
+</classes>
+</test>
+
+
+</suite>

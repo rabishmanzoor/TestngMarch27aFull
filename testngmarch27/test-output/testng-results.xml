@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-10T21:51:57 EDT" name="regression" finished-at="2023-04-10T21:52:17 EDT" duration-ms="19289">
+    <groups>
+      <group name="regression">
+        <method signature="NewTest.signin_facebbok()[pri:0, instance:banking3.testngmarch27.NewTest@7c0c77c7]" name="signin_facebbok" class="banking3.testngmarch27.NewTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2023-04-10T21:51:57 EDT" name="chrome browser" finished-at="2023-04-10T21:52:17 EDT" duration-ms="19289">
+      <class name="banking3.testngmarch27.NewTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:banking3.testngmarch27.NewTest@7c0c77c7]" started-at="2023-04-10T21:51:58 EDT" name="beforeMethod" finished-at="2023-04-10T21:52:01 EDT" duration-ms="3463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="signin_facebbok()[pri:0, instance:banking3.testngmarch27.NewTest@7c0c77c7]" started-at="2023-04-10T21:52:01 EDT" name="signin_facebbok" finished-at="2023-04-10T21:52:17 EDT" duration-ms="15573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin_facebbok -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:banking3.testngmarch27.NewTest@7c0c77c7]" started-at="2023-04-10T21:52:17 EDT" name="afterMethod" finished-at="2023-04-10T21:52:17 EDT" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- banking3.testngmarch27.NewTest -->
+    </test> <!-- chrome browser -->
+  </suite> <!-- regression -->
+</testng-results>
